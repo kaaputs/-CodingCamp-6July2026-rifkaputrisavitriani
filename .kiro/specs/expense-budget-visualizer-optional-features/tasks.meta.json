@@ -1,0 +1,125 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Add inline theme-prevention script and HTML structural additions to `index.html`": [
+      {
+        "executionId": "40468c9a-6542-4b89-9263-f26120959483",
+        "chatSessionId": "sess_55556236-b3c7-4e16-99cc-0cac21cbb62b",
+        "timestamp": 1783698382389
+      },
+      {
+        "executionId": "40468c9a-6542-4b89-9263-f26120959483",
+        "chatSessionId": "sess_55556236-b3c7-4e16-99cc-0cac21cbb62b",
+        "timestamp": 1783698633336
+      }
+    ],
+    "2. Extend `appState` and fix `VALID_CATEGORIES` reference in `js/app.js`": [
+      {
+        "executionId": "0eb35335-ee70-4706-b5d1-c34cf4614b29",
+        "chatSessionId": "sess_a43e7265-d4f6-47f1-b990-c187eed03452",
+        "timestamp": 1783698762909
+      },
+      {
+        "executionId": "0eb35335-ee70-4706-b5d1-c34cf4614b29",
+        "chatSessionId": "sess_a43e7265-d4f6-47f1-b990-c187eed03452",
+        "timestamp": 1783698976672
+      }
+    ],
+    "3. Implement Dark/Light Mode CSS and component styles in `css/style.css`": [
+      {
+        "executionId": "b0768606-5022-4425-aa0b-5276ff64f30f",
+        "chatSessionId": "sess_d8aaebc6-2062-4041-b99f-a14545e17edf",
+        "timestamp": 1783699030392
+      },
+      {
+        "executionId": "b0768606-5022-4425-aa0b-5276ff64f30f",
+        "chatSessionId": "sess_d8aaebc6-2062-4041-b99f-a14545e17edf",
+        "timestamp": 1783699207252
+      }
+    ],
+    "4. Implement Dark/Light Mode JS functions in `js/app.js`": [
+      {
+        "executionId": "7c943608-2bd7-4d58-973c-0b10bc350554",
+        "chatSessionId": "sess_dc65438e-f372-4194-83fc-11e98b34410a",
+        "timestamp": 1783699277694
+      },
+      {
+        "executionId": "7c943608-2bd7-4d58-973c-0b10bc350554",
+        "chatSessionId": "sess_dc65438e-f372-4194-83fc-11e98b34410a",
+        "timestamp": 1783699433195
+      }
+    ],
+    "5. Implement Custom Categories JS functions in `js/app.js`": [
+      {
+        "executionId": "5d42dc1c-9952-4a22-9c85-ec092c608ec3",
+        "chatSessionId": "sess_347d0121-4b13-4230-8f1d-af5a0e45ba0d",
+        "timestamp": 1783699468565
+      },
+      {
+        "executionId": "5d42dc1c-9952-4a22-9c85-ec092c608ec3",
+        "chatSessionId": "sess_347d0121-4b13-4230-8f1d-af5a0e45ba0d",
+        "timestamp": 1783699714595
+      }
+    ],
+    "6. Implement Sort Transactions JS functions in `js/app.js`": [
+      {
+        "executionId": "a5a4a4dd-9cfd-4d7f-ad37-5e81ecb1bca9",
+        "chatSessionId": "sess_f74457e7-60c9-445d-b212-40392a26f123",
+        "timestamp": 1783699792264
+      },
+      {
+        "executionId": "a5a4a4dd-9cfd-4d7f-ad37-5e81ecb1bca9",
+        "chatSessionId": "sess_f74457e7-60c9-445d-b212-40392a26f123",
+        "timestamp": 1783700013212
+      }
+    ],
+    "7. Update `computeChartData()` for custom category colors in `js/app.js`": [
+      {
+        "executionId": "2f793fd6-8a87-4135-9750-7c1dfbb6a6fc",
+        "chatSessionId": "sess_145960c0-a186-4873-8313-703650a9a642",
+        "timestamp": 1783700058846
+      },
+      {
+        "executionId": "2f793fd6-8a87-4135-9750-7c1dfbb6a6fc",
+        "chatSessionId": "sess_145960c0-a186-4873-8313-703650a9a642",
+        "timestamp": 1783700188342
+      }
+    ],
+    "8. Extend `renderAll()` and update `DOMContentLoaded` handler in `js/app.js`": [
+      {
+        "executionId": "01dcce12-a629-4089-b97e-9cecfb71fdba",
+        "chatSessionId": "sess_5a74f2df-c55d-4f08-96b6-13fd783d7770",
+        "timestamp": 1783700249037
+      },
+      {
+        "executionId": "01dcce12-a629-4089-b97e-9cecfb71fdba",
+        "chatSessionId": "sess_5a74f2df-c55d-4f08-96b6-13fd783d7770",
+        "timestamp": 1783700432752
+      }
+    ],
+    "9. Checkpoint — Smoke test the full integration": [
+      {
+        "executionId": "621ac00f-9bc1-41a9-9b31-7e53e6a235f0",
+        "chatSessionId": "sess_449570aa-776f-4004-b00e-4403b2d995ca",
+        "timestamp": 1783700463288
+      },
+      {
+        "executionId": "621ac00f-9bc1-41a9-9b31-7e53e6a235f0",
+        "chatSessionId": "sess_449570aa-776f-4004-b00e-4403b2d995ca",
+        "timestamp": 1783700690390
+      }
+    ],
+    "13. Install fast-check dev dependency": [
+      {
+        "executionId": "b462ba18-d9e5-4f4e-aa8d-e876ae5a5c2e",
+        "chatSessionId": "sess_f15436ac-2173-4c13-b681-11ff6fa5d5ad",
+        "timestamp": 1783700715817
+      },
+      {
+        "executionId": "b462ba18-d9e5-4f4e-aa8d-e876ae5a5c2e",
+        "chatSessionId": "sess_f15436ac-2173-4c13-b681-11ff6fa5d5ad",
+        "timestamp": 1783700834224
+      }
+    ]
+  }
+}

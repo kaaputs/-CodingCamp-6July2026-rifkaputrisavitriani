@@ -5,27 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expense &amp; Budget Visualizer</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <script>
+      (function() {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') {
+          document.documentElement.setAttribute('data-theme', t);
+        } else {
+          var pref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', pref);
+        }
+      })();
+    </script>
     <script src="js/app.js" defer></script>
   </head>
   <body>
+    <button id="theme-toggle-btn" type="button" aria-label="Switch to dark mode">🌙</button>
+     <h2 class= "app-title"> Expense &amp; Budget Visualizer</h2>
+     <p class="app-subtitle"> Track your spending and manage your budget with ease.</p>
     <div class="app-grid">
+      <!-- Category Management Section (Optional Features Task 1) -->
+      <section id="category-management">
+        <h2> 
+          <span class="material-symbols-outlined"> category</span>
+          Add Category</h2>
+        <input id="new-category-input" type="text" maxlength="30" aria-label="New category name" placeholder="New category name" />
+
+        <span id="new-category-input-error" class="category-field-error"></span>
+
+        <button id="add-category-btn" type="button">Add</button>
+
+        <h3 class = "category-subtitle"> Default Categories</h3>
+        <div id="builtin-category-list"></div>
+
+        <h3 class="category-subtitle">Added Categories</h3>
+        <div id="category-list"></div>
+      </section>
+      
       <!-- Balance Section (Task 2.1) -->
       <header id="balance-section">
-        <h1>Total Balance</h1>
+        <h1>
+          <span class = "material-symbols-outlined"> account_balance_wallet </span> 
+          Total Balance</h1>
         <p id="balance-display">$0.00</p>
         <p id="balance-warning" hidden aria-live="assertive"></p>
       </header>
 
       <!-- Transaction Form (Task 2.2) -->
       <form id="transaction-form">
+        <h2>
+          <span class="material-symbols-outlined">add_circle</span>Add Transaction</h2>
+
         <input id="item-name" type="text" maxlength="100" placeholder="Item name" />
         <input id="amount" type="number" step="0.01" min="0.01" placeholder="Amount" />
         <select id="category">
           <option value="">-- Select Category --</option>
-          <option value="Food">Food</option>
-          <option value="Transport">Transport</option>
-          <option value="Fun">Fun</option>
         </select>
         <button type="submit">Add</button>
         <div id="form-errors" aria-live="polite"></div>
@@ -33,14 +69,37 @@
 
       <!-- Transaction List Section (Task 2.3) -->
       <section id="transaction-list-section">
+        <h2>
+          <span class="material-symbols-outlined">receipt_long</span>
+          Recent Transactions </h2>
+
+        <div id="sort-controls" role="group" aria-label="Sort transactions">
+
+          <span class = "sort-label">Sort By:</span>
+          <select id="sort-key-select" aria-label="Sort by">
+            <option value="date">Date</option>
+            <option value="amount">Amount</option>
+            <option value="category">Category</option>
+          </select>
+
+          <button id="sort-direction-btn" 
+          type="button" 
+          aria-label="Sort ascending">Ascending ↑</button>
+        </div>
+
         <ul id="transaction-list"></ul>
         <p id="empty-list-message" hidden>No transactions recorded yet.</p>
       </section>
 
       <!-- Chart Section (Task 2.4) -->
       <section id="chart-section">
+        <h2> 
+          <span class= "material-symbols-outlined">pie_chart</span>
+          Spending by Category</h2>
+
         <canvas id="spending-chart"></canvas>
         <p id="chart-placeholder">No spending data available.</p>
+
       </section>
     </div>
   </body>

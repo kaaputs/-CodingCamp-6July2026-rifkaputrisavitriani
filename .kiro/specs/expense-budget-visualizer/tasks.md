@@ -164,14 +164,14 @@ Build a single-page, client-side web application using plain HTML, CSS, and Vani
     - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5_
     - _Design: Balance Display Component_
 
-- [-] 12. Implement Pie Chart component
-  - [ ] 12.1 Define `CATEGORY_COLORS` constant and implement `initChart()`
+- [x] 12. Implement Pie Chart component
+  - [x] 12.1 Define `CATEGORY_COLORS` constant and implement `initChart()`
     - Note: `CATEGORY_COLORS` is already defined in `js/app.js`; only `initChart()` needs to be added
     - Implement `initChart()`: get `#spending-chart` canvas context, create `new Chart(ctx, { type: 'pie', ... })` with empty data, responsive option, bottom legend, and tooltip callback formatting values as `$X.XX`; store instance in module-level `let chartInstance = null`
     - _Requirements: 5.1, 5.4, 5.5_
     - _Design: Pie Chart Component, Chart.js Integration_
 
-  - [ ] 12.2 Implement `renderChart(chartData)` and `showChartPlaceholder()`
+  - [x] 12.2 Implement `renderChart(chartData)` and `showChartPlaceholder()`
     - `renderChart(chartData)`: assign `chartInstance.data.labels`, `chartInstance.data.datasets[0].data`, `chartInstance.data.datasets[0].backgroundColor`; call `chartInstance.update()`; hide `#chart-placeholder`
     - `showChartPlaceholder()`: show `#chart-placeholder` text; clear chart data via `chartInstance.data.labels = []; chartInstance.data.datasets[0].data = []; chartInstance.update()`
     - _Requirements: 5.1, 5.2, 5.3, 5.5, 5.6_
@@ -183,16 +183,16 @@ Build a single-page, client-side web application using plain HTML, CSS, and Vani
     - Covered in `tests/utils.pbt.test.js`
     - **Validates: Requirements 5.1, 5.4**
 
-- [ ] 13. Implement `renderAll()` orchestration function
-  - [ ] 13.1 Write `renderAll(transactions)` function
+- [x] 13. Implement `renderAll()` orchestration function
+  - [x] 13.1 Write `renderAll(transactions)` function
     - Call `renderBalance(computeBalance(transactions))`
     - Call `renderTransactionList(transactions)`
     - Call `computeChartData(transactions)`; if `chartData.labels.length === 0` call `showChartPlaceholder()`, else call `renderChart(chartData)`
     - _Requirements: 4.2, 4.3, 5.2, 5.3_
     - _Design: Event Flow and State Management_
 
-- [ ] 14. Implement app initialization and event wiring
-  - [ ] 14.1 Write `DOMContentLoaded` initialization handler
+- [x] 14. Implement app initialization and event wiring
+  - [x] 14.1 Write `DOMContentLoaded` initialization handler
     - Call `loadFromStorage()`; if result is non-null array, assign to `appState.transactions`; if null (error), show non-blocking storage warning banner
     - Call `initChart()`
     - Call `renderAll(appState.transactions)`
@@ -201,8 +201,8 @@ Build a single-page, client-side web application using plain HTML, CSS, and Vani
     - _Requirements: 6.3, 6.4_
     - _Design: Event Flow — Initialization sequence_
 
-- [ ] 15. Implement error handling UI
-  - [ ] 15.1 Implement storage unavailable / parse-error banner
+- [x] 15. Implement error handling UI
+  - [x] 15.1 Implement storage unavailable / parse-error banner
     - Create a `showStorageWarning(message)` helper that renders a non-blocking `<div id="storage-banner" role="alert">` at the top of `<body>` with the provided message (e.g., "Data could not be loaded. Starting fresh.")
     - Call this helper from the `DOMContentLoaded` handler when `loadFromStorage()` returns `null`
     - _Requirements: 6.4_
