@@ -1,0 +1,363 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold project file structure": [
+      {
+        "executionId": "2eaf522d-320b-4805-bf7b-fa6bd40933d2",
+        "chatSessionId": "sess_fe98304b-7a9b-46f1-93c0-11482cf28dbf",
+        "timestamp": 1783603320781
+      },
+      {
+        "executionId": "22e88e5d-743c-4a21-89a9-540952ab90cd",
+        "chatSessionId": "sess_fe98304b-7a9b-46f1-93c0-11482cf28dbf",
+        "timestamp": 1783608478005
+      },
+      {
+        "executionId": "22e88e5d-743c-4a21-89a9-540952ab90cd",
+        "chatSessionId": "sess_fe98304b-7a9b-46f1-93c0-11482cf28dbf",
+        "timestamp": 1783642997907
+      }
+    ],
+    "4.3 Write property test for Storage API persistence": [
+      {
+        "executionId": "5dd03df4-7406-41a3-ae42-e1d46598b9a1",
+        "chatSessionId": "sess_48805811-cce7-4449-bdd5-c98f1b6272ce",
+        "timestamp": 1783643074613
+      }
+    ],
+    "12.3 Write property test for chart data computation": [
+      {
+        "executionId": "b27e438e-4ee1-497d-84aa-2b04bc605500",
+        "chatSessionId": "sess_f8d7a584-13dd-4401-af8e-495f81d78b5e",
+        "timestamp": 1783644874804
+      },
+      {
+        "executionId": "1947a582-d5e3-48de-ba10-09322289f5a4",
+        "chatSessionId": "sess_1e40adaa-aca3-4f5f-93fe-33391eebe534",
+        "timestamp": 1783644905718
+      }
+    ],
+    "2. Build HTML structure": [
+      {
+        "executionId": "311da670-156d-4380-b900-7da66d423bc8",
+        "chatSessionId": "sess_64c187b3-c9bb-4d41-8b4a-7e779ab03f0a",
+        "timestamp": 1783645022005
+      },
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646432654
+      }
+    ],
+    "2.1 Add Balance section markup": [
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646309860
+      },
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646402803
+      }
+    ],
+    "2.2 Add Form Panel markup": [
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646315484
+      },
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646409694
+      }
+    ],
+    "2.3 Add Transaction List section markup": [
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646321794
+      },
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646418966
+      }
+    ],
+    "2.4 Add Chart section markup": [
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646326599
+      },
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646425965
+      }
+    ],
+    "2.5 Wrap all sections in `.app-grid` container": [
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646332610
+      },
+      {
+        "executionId": "12423aa8-6199-494d-8198-16aecda52709",
+        "chatSessionId": "sess_69e37636-a56f-486d-81c7-a3ff01b511f0",
+        "timestamp": 1783646432326
+      }
+    ],
+    "3. Implement CSS base styles and layout": [
+      {
+        "executionId": "ab3ec917-2f73-4a72-b85b-78e6a3af2e3c",
+        "chatSessionId": "sess_f106e203-ac42-48f4-a5ba-f1b7aec1bd3d",
+        "timestamp": 1783646456229
+      },
+      {
+        "executionId": "ab3ec917-2f73-4a72-b85b-78e6a3af2e3c",
+        "chatSessionId": "sess_f106e203-ac42-48f4-a5ba-f1b7aec1bd3d",
+        "timestamp": 1783646699840
+      }
+    ],
+    "3.2 Implement mobile-first CSS Grid layout": [
+      {
+        "executionId": "646196db-a90e-466a-9ec6-5be257227619",
+        "chatSessionId": "sess_497d41e1-0aa3-46fe-b214-47fc144b7ce7",
+        "timestamp": 1783647186050
+      },
+      {
+        "executionId": "646196db-a90e-466a-9ec6-5be257227619",
+        "chatSessionId": "sess_497d41e1-0aa3-46fe-b214-47fc144b7ce7",
+        "timestamp": 1783647229235
+      }
+    ],
+    "3.3 Add desktop breakpoint media query": [
+      {
+        "executionId": "1972e7e2-080b-4328-b15a-1e91d356d1e4",
+        "chatSessionId": "sess_04d09548-223c-4864-ac30-c727c69e5abb",
+        "timestamp": 1783647379906
+      },
+      {
+        "executionId": "1972e7e2-080b-4328-b15a-1e91d356d1e4",
+        "chatSessionId": "sess_04d09548-223c-4864-ac30-c727c69e5abb",
+        "timestamp": 1783647420001
+      }
+    ],
+    "4. Implement Storage API in `js/app.js`": [
+      {
+        "executionId": "275f4d77-34d4-4369-a956-fe24aeb11fc3",
+        "chatSessionId": "sess_affb230f-01bb-4888-8a40-c070ab242ffd",
+        "timestamp": 1783647493973
+      },
+      {
+        "executionId": "275f4d77-34d4-4369-a956-fe24aeb11fc3",
+        "chatSessionId": "sess_affb230f-01bb-4888-8a40-c070ab242ffd",
+        "timestamp": 1783647572377
+      }
+    ],
+    "4.1 Define `STORAGE_KEY` constant and `loadFromStorage()` function": [
+      {
+        "executionId": "560322cf-4116-4d7d-ae6d-f4341ac1e7f7",
+        "chatSessionId": "sess_e3cb72d8-0532-402f-93b6-650f307e2fb7",
+        "timestamp": 1783647767739
+      },
+      {
+        "executionId": "560322cf-4116-4d7d-ae6d-f4341ac1e7f7",
+        "chatSessionId": "sess_e3cb72d8-0532-402f-93b6-650f307e2fb7",
+        "timestamp": 1783647809422
+      }
+    ],
+    "4.2 Implement `saveToStorage(transactions)` function": [
+      {
+        "executionId": "c6361c22-891b-4de0-b1bd-fdc0b831b1ee",
+        "chatSessionId": "sess_c39f8a65-cfd0-4239-9c2e-2e46a447c835",
+        "timestamp": 1783647824504
+      },
+      {
+        "executionId": "c6361c22-891b-4de0-b1bd-fdc0b831b1ee",
+        "chatSessionId": "sess_c39f8a65-cfd0-4239-9c2e-2e46a447c835",
+        "timestamp": 1783648519917
+      }
+    ],
+    "5. Define data model and app state": [
+      {
+        "executionId": "4f5885f5-bd1f-457a-afa5-76e42b0af178",
+        "chatSessionId": "sess_7f8e5b0f-404f-45d2-8bce-c63dcc0924db",
+        "timestamp": 1783648635929
+      },
+      {
+        "executionId": "4f5885f5-bd1f-457a-afa5-76e42b0af178",
+        "chatSessionId": "sess_7f8e5b0f-404f-45d2-8bce-c63dcc0924db",
+        "timestamp": 1783649109906
+      }
+    ],
+    "5.1 Add `Transaction` typedef and `appState` object": [
+      {
+        "executionId": "4f5885f5-bd1f-457a-afa5-76e42b0af178",
+        "chatSessionId": "sess_7f8e5b0f-404f-45d2-8bce-c63dcc0924db",
+        "timestamp": 1783649109286
+      }
+    ],
+    "6. Implement `validateInput()` function": [
+      {
+        "executionId": "50efc766-4112-4fec-a7ed-21619d0fd498",
+        "chatSessionId": "sess_280a93d5-1416-4d2c-abfb-abf1b13dd59d",
+        "timestamp": 1783649342207
+      },
+      {
+        "executionId": "50efc766-4112-4fec-a7ed-21619d0fd498",
+        "chatSessionId": "sess_280a93d5-1416-4d2c-abfb-abf1b13dd59d",
+        "timestamp": 1783649692174
+      }
+    ],
+    "7. Implement utility functions": [
+      {
+        "executionId": "ebc7e696-e68f-4d82-aa50-28d22f0a21c0",
+        "chatSessionId": "sess_c8557be9-045e-416c-83da-45bbfc056d05",
+        "timestamp": 1783653036657
+      },
+      {
+        "executionId": "ebc7e696-e68f-4d82-aa50-28d22f0a21c0",
+        "chatSessionId": "sess_c8557be9-045e-416c-83da-45bbfc056d05",
+        "timestamp": 1783653322809
+      }
+    ],
+    "7.1 Implement `formatAmount(amount)` and `truncateName(name, maxLen)`": [
+      {
+        "executionId": "139afad5-3be4-4d77-b32f-87880a555331",
+        "chatSessionId": "sess_aa852d23-ecc9-4af8-a081-7bbbc24d3179",
+        "timestamp": 1783653381046
+      },
+      {
+        "executionId": "139afad5-3be4-4d77-b32f-87880a555331",
+        "chatSessionId": "sess_aa852d23-ecc9-4af8-a081-7bbbc24d3179",
+        "timestamp": 1783653535692
+      }
+    ],
+    "7.3 Implement `computeBalance(transactions)` pure function": [
+      {
+        "executionId": "afb93727-0038-44dd-babc-b836e4ab16f8",
+        "chatSessionId": "sess_cfe74507-8880-4cf1-9212-478e7445f260",
+        "timestamp": 1783653575989
+      },
+      {
+        "executionId": "afb93727-0038-44dd-babc-b836e4ab16f8",
+        "chatSessionId": "sess_cfe74507-8880-4cf1-9212-478e7445f260",
+        "timestamp": 1783653693582
+      }
+    ],
+    "7.5 Implement `computeChartData(transactions)` function": [
+      {
+        "executionId": "8178d32c-4e89-4672-9ea3-0f99104e9264",
+        "chatSessionId": "sess_a2d55437-3462-4293-af5c-7d9e44fbd508",
+        "timestamp": 1783653759667
+      },
+      {
+        "executionId": "8178d32c-4e89-4672-9ea3-0f99104e9264",
+        "chatSessionId": "sess_a2d55437-3462-4293-af5c-7d9e44fbd508",
+        "timestamp": 1783653865549
+      }
+    ],
+    "8. Implement Form component functions": [
+      {
+        "executionId": "01157235-0dad-4372-8e7c-0b3d3be89f41",
+        "chatSessionId": "sess_48d5c68a-1a11-43dd-827a-336b77900365",
+        "timestamp": 1783654066028
+      },
+      {
+        "executionId": "01157235-0dad-4372-8e7c-0b3d3be89f41",
+        "chatSessionId": "sess_48d5c68a-1a11-43dd-827a-336b77900365",
+        "timestamp": 1783654664091
+      }
+    ],
+    "9. Implement Transaction List component functions": [
+      {
+        "executionId": "591687b9-6f1e-4052-9834-55823ed0b9e5",
+        "chatSessionId": "sess_ea92698e-fea0-4a52-a58e-3714bfef2586",
+        "timestamp": 1783655732030
+      },
+      {
+        "executionId": "591687b9-6f1e-4052-9834-55823ed0b9e5",
+        "chatSessionId": "sess_ea92698e-fea0-4a52-a58e-3714bfef2586",
+        "timestamp": 1783656026256
+      },
+      {
+        "executionId": "f7247e4d-e979-4b94-8a53-2285639a2cd0",
+        "chatSessionId": "sess_a43a501c-db52-46c9-b98f-3601c60c0733",
+        "timestamp": 1783656049910
+      },
+      {
+        "executionId": "f7247e4d-e979-4b94-8a53-2285639a2cd0",
+        "chatSessionId": "sess_a43a501c-db52-46c9-b98f-3601c60c0733",
+        "timestamp": 1783656164522
+      },
+      {
+        "executionId": "729a4baf-0cb5-405e-8c7c-aa4233111c1b",
+        "chatSessionId": "sess_f110b409-263d-402b-803d-28ba187f7451",
+        "timestamp": 1783656185827
+      },
+      {
+        "executionId": "36434e96-3e86-4e8a-bb1c-332fe4ce807c",
+        "chatSessionId": "sess_758c072e-ff49-4d1e-8e8b-7bfdba5c1332",
+        "timestamp": 1783656827233
+      },
+      {
+        "executionId": "36434e96-3e86-4e8a-bb1c-332fe4ce807c",
+        "chatSessionId": "sess_758c072e-ff49-4d1e-8e8b-7bfdba5c1332",
+        "timestamp": 1783656927975
+      }
+    ],
+    "9.1 Implement `renderTransactionList(transactions)` function": [
+      {
+        "executionId": "591687b9-6f1e-4052-9834-55823ed0b9e5",
+        "chatSessionId": "sess_ea92698e-fea0-4a52-a58e-3714bfef2586",
+        "timestamp": 1783656019329
+      }
+    ],
+    "9.3 Implement `handleDeleteClick(event)` function": [
+      {
+        "executionId": "591687b9-6f1e-4052-9834-55823ed0b9e5",
+        "chatSessionId": "sess_ea92698e-fea0-4a52-a58e-3714bfef2586",
+        "timestamp": 1783656025938
+      }
+    ],
+    "11. Implement Balance Display component": [
+      {
+        "executionId": "aaf12b2b-5cd2-41ba-b6e5-b6b62a17d6ce",
+        "chatSessionId": "sess_d9b58407-fcd3-42c8-836e-dd4568d2efeb",
+        "timestamp": 1783656206052
+      },
+      {
+        "executionId": "aaf12b2b-5cd2-41ba-b6e5-b6b62a17d6ce",
+        "chatSessionId": "sess_d9b58407-fcd3-42c8-836e-dd4568d2efeb",
+        "timestamp": 1783656422411
+      },
+      {
+        "executionId": "650d21d4-6c97-450b-a099-9d5836a97509",
+        "chatSessionId": "sess_efb41b44-f460-46c7-8d42-d7a2b7201e89",
+        "timestamp": 1783656719320
+      }
+    ],
+    "11.1 Implement `renderBalance(balance)` function": [
+      {
+        "executionId": "650d21d4-6c97-450b-a099-9d5836a97509",
+        "chatSessionId": "sess_efb41b44-f460-46c7-8d42-d7a2b7201e89",
+        "timestamp": 1783656470089
+      },
+      {
+        "executionId": "650d21d4-6c97-450b-a099-9d5836a97509",
+        "chatSessionId": "sess_efb41b44-f460-46c7-8d42-d7a2b7201e89",
+        "timestamp": 1783656718905
+      }
+    ],
+    "12. Implement Pie Chart component": [
+      {
+        "executionId": "d4522962-d8c4-4a97-b8f3-a23cc25810ef",
+        "chatSessionId": "sess_3bb45e5c-5679-4aa6-a5e0-7ee252b02a47",
+        "timestamp": 1783656955547
+      }
+    ]
+  }
+}
